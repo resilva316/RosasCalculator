@@ -28,26 +28,59 @@
 .buttons {
     width: 90px;
     height: 90px;
-    border: 2px solid #2f3e46;
     display: flex;
     justify-content: center;
     margin: auto;
     position: relative;
     border-radius: 10px;
     margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.number:hover {
+    background-color: #B8C3B2;
 }
 
 .number {
     background-color: #CAD2C5;
     color: #2f3e46;
+    box-shadow: 0 5px #2f3e46;
+}
+
+.number:active {
+    background-color: #B8C3B2;
+    box-shadow: 0 2px #2f3e46;
+    transform: translateY(5px);
 }
 
 .mult {
     background-color: #52796F;
     color: #CAD2C5;
+    box-shadow: 0 5px #2f3e46;
+}
+
+.mult:hover {
+    background-color: #39554E;
+}
+
+.mult:active {
+    background-color: #39554E;
+    box-shadow: 0 2px #2f3e46;
+    transform: translateY(5px);
 }
 
 .clear {
     background-color: #354F52;
     color: #CAD2C5;
+    box-shadow: 0 5px #2f3e46;
+}
+
+.clear:hover {
+    background-color: #253639;
+}
+
+.clear:active {
+    background-color: #253639;
+    box-shadow: 0 2px #2f3e46;
+    transform: translateY(5px);
 }
