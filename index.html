@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <!--Outline of Calculator-->
+        <div class="box">
+            <input type="text" id="screen" readonly>
+            <div class="row">
+                <button onclick="display('7')" class="button number">7</button>
+                <button onclick="display('8')" class="button number">8</button>
+                <button onclick="display('9')" class="button number">9</button>
+                <button onclick="display('+')" class="button mult">+</button>
+                <button onclick="display('4')" class="button number">4</button>
+                <button onclick="display('5')" class="button number">5</button>
+                <button onclick="display('6')" class="button number">6</button>
+                <button onclick="display('-')" class="button mult">-</button>
+                <button onclick="display('1')" class="button number">1</button>
+                <button onclick="display('2')" class="button number">2</button>
+                <button onclick="display('3')" class="button number">3</button>
+                <button onclick="display('*')" class="button mult">*</button>
+                <button onclick="clearScreen()"class="button clear">C</button>
+                <button onclick="display('0')" class="button number">0</button>
+                <button onclick="calculate()" class="button mult">=</button>
+                <button onclick="display('/')" class="button mult">/</button>
+            </div>
+        </div>
+    </body>
+</html>
